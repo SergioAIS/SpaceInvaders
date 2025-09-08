@@ -16,6 +16,7 @@
     {"id":{"name":"s_shot_multiple","path":"sprites/s_shot_multiple/s_shot_multiple.yy",},"order":9,},
     {"id":{"name":"s_pow_level","path":"sprites/s_pow_level/s_pow_level.yy",},"order":2,},
     {"id":{"name":"s_player","path":"sprites/s_player/s_player.yy",},"order":0,},
+    {"id":{"name":"o_wave_7","path":"objects/o_wave_7/o_wave_7.yy",},"order":8,},
     {"id":{"name":"s_enemy_trg","path":"sprites/s_enemy_trg/s_enemy_trg.yy",},"order":13,},
     {"id":{"name":"o_pow_level","path":"objects/o_pow_level/o_pow_level.yy",},"order":3,},
     {"id":{"name":"o_enemy_boss","path":"objects/o_enemy_boss/o_enemy_boss.yy",},"order":11,},
