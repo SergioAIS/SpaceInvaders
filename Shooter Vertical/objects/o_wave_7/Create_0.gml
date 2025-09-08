@@ -1,6 +1,6 @@
 c_spawn_points();
 
-nextWave = o_wave_5
+nextWave = noone
 
 // Spawn de enemigos
 c_spawn_height(x1, y1, o_enemy_boss);
