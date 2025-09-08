@@ -1,0 +1,3 @@
+canShoot = 1
+
+
