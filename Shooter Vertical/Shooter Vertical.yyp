@@ -5,6 +5,7 @@
   "resources": [
     {"id":{"name":"s_enemy_slow","path":"sprites/s_enemy_slow/s_enemy_slow.yy",},"order":3,},
     {"id":{"name":"s_enemy_shot_hom","path":"sprites/s_enemy_shot_hom/s_enemy_shot_hom.yy",},"order":6,},
+    {"id":{"name":"o_wave_6","path":"objects/o_wave_6/o_wave_6.yy",},"order":7,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"o_shot_standard_3","path":"objects/o_shot_standard_3/o_shot_standard_3.yy",},"order":5,},
     {"id":{"name":"o_enemy_body","path":"objects/o_enemy_body/o_enemy_body.yy",},"order":3,},
