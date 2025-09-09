@@ -1,11 +1,5 @@
-if (!instance_exists(o_enemy_body)) {
-    if (nextWave != noone) {
-        instance_create_layer(x, y, "obj", nextWave);
-    }
-    instance_destroy();
-}
-
-
-
-
+if (instance_number(o_enemy) == 0 && !alarm[0])
+{
+	alarm[0] = room_speed * 3
+}	
 
