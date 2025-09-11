@@ -17,7 +17,7 @@ switch (state)
 		else
 		{
 			state = "fight"
-			alarm[1] = fightTime
+			//alarm[1] = fightTime
 		}
 	break;
 	
@@ -32,11 +32,11 @@ switch (state)
 		}
 	break;
 	
-	case"escape":
+	/*case"escape":
 		if (vSpeed < speedMax) vSpeed += accel;
 		y += vSpeed;
 		
 		if (y > room_height + 64) instance_destroy()
-	break;
+	break;*/
 }
 

@@ -5,7 +5,7 @@ pSpeed = 3.5
 reloadSpeed = 70
 
 //Comportamiento
-path = noone
+path = p_enemy_fast
 start = 0
 
 canShoot = 0
