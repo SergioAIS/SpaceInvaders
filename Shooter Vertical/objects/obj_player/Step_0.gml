@@ -51,7 +51,7 @@ if (alive)
         y += vSpeed;
 
         // ====== Activar Dash ======
-        if (keyboard_check_pressed(vk_shift) && dash_cooldown <= 0)
+        if (keyboard_check_pressed(ord("X")) && dash_cooldown <= 0)
         {
             is_dashing = true;
             dash_timer = dash_time;
@@ -99,7 +99,7 @@ if (alive)
     // Ataques
     // ======================
 
-    if (keyboard_check(vk_control) and canShoot) 
+    if (keyboard_check(ord("Z")) and canShoot) 
     {
         switch(weapon)
         {
