@@ -7,11 +7,11 @@ if (instance_exists(o_enemy_boss)) {
     var choice = irandom(1);
     switch (choice) {
         case 0: 
-			instance_create_layer(xx, yy, "obj", o_enemy_pow_shield); 
+			instance_create_layer(xx, yy, "obj_boss", o_enemy_pow_shield); 
 		break;
 		
         case 1: 
-			instance_create_layer(xx, yy, "obj", o_enemy_pow_lvlup); 
+			instance_create_layer(xx, yy, "obj_boss", o_enemy_pow_lvlup); 
 		break;
     }
     

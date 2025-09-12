@@ -8,6 +8,7 @@ respawnTime = room_speed * 3;
 //Control
 invi = 0;
 alive = 1;
+deaths = 0;
 
 //Movimiento
 hSpeed = 0;
@@ -26,7 +27,7 @@ powMax = 3;
 weapon = "standard";
 
 // ======================
-// Dash system uwu~
+// Dash system 
 // ======================
 
 // Velocidad del dash

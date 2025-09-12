@@ -1,0 +1,2 @@
+canShoot = 1;
+

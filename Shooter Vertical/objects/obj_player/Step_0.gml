@@ -10,7 +10,7 @@ if (alive)
     }
 
     // ======================
-    // Dash input uwu~
+    // Dash input
     // ======================
 
     if (!is_dashing)
@@ -64,7 +64,6 @@ if (alive)
             // Si no hay dirección, dash hacia arriba
             if (dash_h == 0 && dash_v == 0) dash_v = -1;
 
-            // uwu: activamos dash rapidín como sonic nyaa~
         }
     }
     else
@@ -74,12 +73,9 @@ if (alive)
         y += dash_v * dash_speed;
         dash_timer--;
 
-        // uwu: nave rapidita corriendo a toda mecha owo~
-
         if (dash_timer <= 0)
         {
             is_dashing = false;
-            // uwu: terminamos el dash, a descansar >w<
         }
     }
 
