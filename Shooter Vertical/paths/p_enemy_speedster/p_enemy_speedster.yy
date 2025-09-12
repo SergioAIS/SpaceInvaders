@@ -1,0 +1,25 @@
+{
+  "resourceType": "GMPath",
+  "resourceVersion": "1.0",
+  "name": "p_enemy_speedster",
+  "kind": 1,
+  "closed": false,
+  "precision": 4,
+  "points": [
+    {"speed":100.0,"x":0.0,"y":0.0,},
+    {"speed":100.0,"x":0.5,"y":249.0,},
+    {"speed":130.0,"x":261.5,"y":247.0,},
+    {"speed":130.0,"x":263.5,"y":82.0,},
+    {"speed":130.0,"x":129.5,"y":81.0,},
+    {"speed":130.0,"x":103.5,"y":171.0,},
+    {"speed":130.0,"x":-60.5,"y":349.0,},
+    {"speed":130.0,"x":137.5,"y":454.0,},
+    {"speed":100.0,"x":290.5,"y":276.0,},
+    {"speed":100.0,"x":204.5,"y":147.0,},
+    {"speed":100.0,"x":0.0,"y":38.0,},
+  ],
+  "parent": {
+    "name": "Paths",
+    "path": "folders/Paths.yy",
+  },
+}

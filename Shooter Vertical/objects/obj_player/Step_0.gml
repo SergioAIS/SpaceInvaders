@@ -112,4 +112,9 @@ if (alive)
             break;
         }
     }
+	
+	if (keyboard_check(ord("C")) and canShootSec)
+	{
+		c_weapon_secondary()
+	}
 }

@@ -4,12 +4,19 @@ function c_spawn_points()
 {
 	//Puntos en X
 	x1 = 41
+	x1_5 = 74.5
 	x2 = 108
+	x2_5 = 140
 	x3 = 172
+	x3_5 = 206
 	x4 = 240
+	x4_5 = 272
 	x5 = 304
+	x5_5 = 338.5
 	x6 = 373
+	x6_5 = 404
 	x7 = 435
+	x7_5 = 467
 	//Puntos objetivos en Y-
 	yDefault = -48
 	y1 = 68

@@ -17,7 +17,9 @@ accel = 0.75;
 
 //Ataques
 canShoot = 1;
+canShootSec = 1
 reloadSpeed = 15;
+reloadSpeedSec = room_speed * 5
 
 powLevel = 1;
 powMax = 3;
