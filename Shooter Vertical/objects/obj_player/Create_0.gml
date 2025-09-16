@@ -1,5 +1,5 @@
 //Stats
-hpMax = 30;
+hpMax = 50;
 hp = hpMax;
 
 inviTime = room_speed/2;
@@ -20,7 +20,7 @@ accel = 0.75;
 canShoot = 1;
 canShootSec = 1
 reloadSpeed = 15;
-reloadSpeedSec = room_speed * 5
+reloadSpeedSec = room_speed * 8
 
 powLevel = 1;
 powMax = 3;

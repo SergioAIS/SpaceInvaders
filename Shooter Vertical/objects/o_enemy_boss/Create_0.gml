@@ -10,8 +10,8 @@ hSpeed = 1.5
 
 reloadSpeed = 75
 
-image_xscale = 1.5
-image_yscale = 1.5
+image_xscale = 3
+image_yscale = 3
 //Comportamiento
 
 state = "enter" //enter o fight

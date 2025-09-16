@@ -1,7 +1,7 @@
 c_spawn_points();
 
 //Control
-nextWave = o_wave_5
+nextWave = o_wave_meteoritos_2
 
 //Spawn actions
 

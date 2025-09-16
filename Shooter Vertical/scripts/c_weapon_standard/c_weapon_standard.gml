@@ -6,6 +6,7 @@ function c_weapon_standard(argument0)
 	{
 		case 1:
 			instance_create_layer(x, y-8, "att", o_shot_def);
+			audio_play_sound(snd_shot_1, 1, false)
 		break;
 		
 		case 2:

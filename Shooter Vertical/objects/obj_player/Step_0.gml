@@ -106,6 +106,14 @@ if (alive)
             case "multiple":
                 c_weapon_multiple(powLevel);
             break;
+			
+			case "homing":
+				c_weapon_homing()
+			break;
+			
+			case "multiple-homing":
+				c_weapon_multiple_homing(powLevel)
+			break;
         }
     }
 	

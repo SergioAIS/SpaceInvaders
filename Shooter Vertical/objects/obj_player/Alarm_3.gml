@@ -1,0 +1,1 @@
+canShootSec = 1

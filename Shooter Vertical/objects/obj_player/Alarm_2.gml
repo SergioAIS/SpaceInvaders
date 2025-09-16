@@ -8,6 +8,7 @@ hp = hpMax
 powLevel = 1
 visible = 1
 //weapon = "standard"
+deaths = deaths + 1
 
 invi = 1
 alarm[1] = inviTime * 2
