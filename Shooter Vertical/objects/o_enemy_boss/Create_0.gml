@@ -23,3 +23,7 @@ canShoot = 1
 shotDir = 0
 
 moveLeft = 1
+
+
+spd = 2
+turn_speed =10

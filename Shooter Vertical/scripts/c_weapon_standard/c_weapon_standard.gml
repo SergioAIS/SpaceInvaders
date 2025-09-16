@@ -11,10 +11,12 @@ function c_weapon_standard(argument0)
 		
 		case 2:
 			instance_create_layer(x, y-8, "att", o_shot_standard_2);
+			audio_play_sound(snd_shot_1, 1, false)
 		break;
 		
 		case 3:
 			instance_create_layer(x, y-8, "att", o_shot_standard_3);
+			audio_play_sound(snd_shot_1, 1, false)
 		break;
 	}
 	
