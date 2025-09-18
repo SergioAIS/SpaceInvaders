@@ -8,12 +8,12 @@ function c_boss_spiral(){
 	    global.spiral_angle = 0;
 	}
 
-	var bullets = 12; // número de proyectiles en círculo
+	var bullets = 10; // número de proyectiles en círculo
 	for (var i = 0; i < bullets; i++) {
 	    var angle = global.spiral_angle + (i * (360 / bullets));
 	    var b = instance_create_layer(x, y, "att", o_enemy_shot);
 	    b.direction = angle;
-	    b.speed = 1.5;
+	    b.speed = 1;
 	}
 
 	// Incrementa el ángulo base para que rote en cada disparo

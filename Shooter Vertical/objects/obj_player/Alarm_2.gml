@@ -1,7 +1,17 @@
 /// @description Respawn
+switch (room)
+{
+	case r_game:
+		x = 240
+		y = 520	
+	break;
+	
+	case r_boss:
+		x = 352
+		y = 736
+	break;
+}
 
-x = 240
-y = 520
 
 alive = 1
 hp = hpMax

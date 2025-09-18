@@ -10,6 +10,10 @@ hSpeed = 1.5
 
 reloadSpeed = 75
 
+rainActive = false;
+rainTimer = 0;
+
+
 image_xscale = 3
 image_yscale = 3
 //Comportamiento

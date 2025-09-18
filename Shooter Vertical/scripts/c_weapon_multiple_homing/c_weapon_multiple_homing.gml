@@ -58,5 +58,5 @@ function c_weapon_multiple_homing(argument0){
 			
 	}
     canShoot = 0;
-    alarm[0] = reloadSpeed;
+    alarm[0] = reloadSpeed * 2.2
 }

@@ -14,4 +14,5 @@ function c_boss_fan_attack(){
 	    b.direction = angle;
 	    b.speed = 1.5;
 	}
+	weapon = "rain"
 }

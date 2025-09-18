@@ -21,6 +21,7 @@ canShoot = 1;
 canShootSec = 1
 reloadSpeed = 15;
 reloadSpeedSec = room_speed * 8
+reloadSpeedHom = 25
 
 powLevel = 1;
 powMax = 3;
@@ -31,11 +32,11 @@ weapon = "standard";
 // ======================
 
 // Velocidad del dash
-dash_speed = 16; // dash rapidín uwu~
+dash_speed = 16; 
 // Duración del dash en frames
-dash_time = 10; // dura poquito owo
+dash_time = 10; 
 // Cooldown antes de volver a usarlo
-dash_cooldown_max = room_speed; // 1 segundo uwu
+dash_cooldown_max = room_speed
 // Control interno
 dash_timer = 0;
 dash_cooldown = 0;

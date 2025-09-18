@@ -69,7 +69,7 @@ switch (state)
             break;
             
             case 2:
-                atk2 = choose("fan", "rain")
+                atk2 = choose("fan", "rain", "mine")
 				switch(atk2)
 				{
 					case "fan":
@@ -79,13 +79,17 @@ switch (state)
 					case "rain":
 						c_boss_rain_attack()
 					break;
+					
+					case "mine":
+						c_boss_mine()
+					break;
 				}
             break;
             
             case 3:
                 // ataques locos: espiral + invocar adds
                 c_boss_spiral();
-                if (irandom(100) < 2) {
+                if (irandom(100) < 10) {
                     instance_create_layer(irandom(room_width), -32, "obj", o_enemy_slow);
                 }
             break;

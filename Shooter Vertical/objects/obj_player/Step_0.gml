@@ -108,7 +108,7 @@ if (alive)
             break;
 			
 			case "homing":
-				c_weapon_homing()
+				c_weapon_homing(powLevel)
 			break;
 			
 			case "multiple-homing":

@@ -30,6 +30,8 @@ if (room_width < 481)
 }
 else
 {
+	draw_set_font(Font1)
+	
 	draw_sprite(s_gui_boss,-1,0,780)
 	draw_set_color(make_color_rgb(255,64,64));
 	draw_rectangle(60,798,100+(hp*140/hpMax),810,0);
