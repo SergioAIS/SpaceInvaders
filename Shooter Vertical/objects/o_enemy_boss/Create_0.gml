@@ -15,6 +15,7 @@ image_yscale = 3
 //Comportamiento
 
 state = "enter" //enter o fight
+phase = 1; 
 targetHeight = 190
 
 weapon = "homing" //homing o multi

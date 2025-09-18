@@ -1,6 +1,22 @@
 
 event_inherited();
 
+// Chequeo de fases
+if (hp <= hpMax * 0.7 && phase == 1) {
+    phase = 2;
+    reloadSpeed -= 5; // dispara más rápido
+    hSpeed += 1;      // se mueve más rápido
+    //audio_play_sound(snd_phase_change, 1, false); // sonido de transición
+}
+
+if (hp <= hpMax * 0.4 && phase == 2) {
+    phase = 3;
+    reloadSpeed -= 5;
+    hSpeed += 1;
+   // audio_stop_all();
+   // audio_play_sound(snd_boss_phase2, 1, true); // música más intensa
+}
+
 switch (state)
 {
 	case "enter":
@@ -22,41 +38,50 @@ switch (state)
 	break;
 	
 	case "fight":
-		if (moveLeft)
-		{
-			x -= hSpeed
-			if (x <= 70) moveLeft = 0
-		}
-		else
-		{
-			x += hSpeed
-			if (x >=room_width - 70) moveLeft = 1
-		}
-		
-		if (canShoot)
-		{
-			switch (weapon)
-			{
-				case "homing":
-					c_boss_homing()
-				break;
-				
-				case "multi":
-					canShoot = 0;
-					alarm[0] = reloadSpeed;
-	
-					instance_create_layer(x, y, "att", o_enemy_shot);
+    // Movimiento igual
+    if (moveLeft) {
+        x -= hSpeed;
+        if (x <= 70) moveLeft = 0;
+    } else {
+        x += hSpeed;
+        if (x >= room_width - 70) moveLeft = 1;
+    }
+
+    if (canShoot) {
+        switch (phase) {
+            
+            case 1:
+                switch (weapon) 
+				{ 
+					case "bomb":
+						c_boss_bomb()
+					break;
 					
-					instance_create_layer(x + 50, y, "att", o_enemy_shot);
+					case "homing": 
+						c_boss_homing()
+					break; 
 					
-					instance_create_layer(x - 50, y, "att", o_enemy_shot);
-					
-					audio_play_sound(snd_enemy_shot_1, 1, false)
-					 
-					 weapon = "homing"
-				break;
-			}
-		}
-	break;
+					case "multi":
+						c_boss_multi()
+					break;
+				}
+            break;
+            
+            case 2:
+                // abanico de 5 balas
+                c_boss_fan_attack();
+            break;
+            
+            case 3:
+                // ataques locos: espiral + invocar adds
+                c_boss_spiral();
+                if (irandom(100) < 2) {
+                    instance_create_layer(irandom(room_width), -32, "obj", o_enemy_pow);
+                }
+            break;
+        }
+    }
+break;
+
 	
 }
