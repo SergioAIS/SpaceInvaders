@@ -1,2 +1,2 @@
-c_spawn_height(x4, y4, o_meteorito);
-alarm[3] = room_speed * 1.5
+c_spawn_meteo(x4, o_meteorito)
+alarm[3] = room_speed

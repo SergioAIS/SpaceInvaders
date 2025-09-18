@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_shield_enemy",
   "spriteId": {
-    "name": "s_enemy_trg",
-    "path": "sprites/s_enemy_trg/s_enemy_trg.yy",
+    "name": "s_shield_enemy",
+    "path": "sprites/s_shield_enemy/s_shield_enemy.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,6 +31,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

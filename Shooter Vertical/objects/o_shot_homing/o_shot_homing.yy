@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_shot_homing",
   "spriteId": {
-    "name": "s_shot_standard",
-    "path": "sprites/s_shot_standard/s_shot_standard.yy",
+    "name": "s_shot_homing",
+    "path": "sprites/s_shot_homing/s_shot_homing.yy",
   },
   "solid": false,
   "visible": true,
