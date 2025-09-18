@@ -6,15 +6,15 @@ if (hp <= hpMax * 0.7 && phase == 1) {
     phase = 2;
     reloadSpeed -= 5; // dispara más rápido
     hSpeed += 1;      // se mueve más rápido
-    //audio_play_sound(snd_phase_change, 1, false); // sonido de transición
+    audio_play_sound(snd_phase_change, 1, false); // sonido de transición
 }
 
 if (hp <= hpMax * 0.4 && phase == 2) {
     phase = 3;
     reloadSpeed -= 5;
     hSpeed += 1;
-   // audio_stop_all();
-   // audio_play_sound(snd_boss_phase2, 1, true); // música más intensa
+   audio_play_sound(snd_phase_change, 1, true); // música más intensa
+   audio_stop_sound(snd_phase_change)
 }
 
 switch (state)
@@ -51,7 +51,8 @@ switch (state)
         switch (phase) {
             
             case 1:
-                switch (weapon) 
+				atk = choose("bomb", "homing", "multi")
+                switch (atk) 
 				{ 
 					case "bomb":
 						c_boss_bomb()
@@ -68,15 +69,24 @@ switch (state)
             break;
             
             case 2:
-                // abanico de 5 balas
-                c_boss_fan_attack();
+                atk2 = choose("fan", "rain")
+				switch(atk2)
+				{
+					case "fan":
+						c_boss_fan_attack();
+					break;
+					
+					case "rain":
+						c_boss_rain_attack()
+					break;
+				}
             break;
             
             case 3:
                 // ataques locos: espiral + invocar adds
                 c_boss_spiral();
                 if (irandom(100) < 2) {
-                    instance_create_layer(irandom(room_width), -32, "obj", o_enemy_pow);
+                    instance_create_layer(irandom(room_width), -32, "obj", o_enemy_slow);
                 }
             break;
         }
