@@ -117,6 +117,7 @@
     {"id":{"name":"c_boss_bomb","path":"scripts/c_boss_bomb/c_boss_bomb.yy",},"order":12,},
     {"id":{"name":"s_pow_heal","path":"sprites/s_pow_heal/s_pow_heal.yy",},"order":11,},
     {"id":{"name":"c_spawn_points","path":"scripts/c_spawn_points/c_spawn_points.yy",},"order":2,},
+    {"id":{"name":"title","path":"sprites/title/title.yy",},"order":17,},
     {"id":{"name":"c_weapon_multiple_homing","path":"scripts/c_weapon_multiple_homing/c_weapon_multiple_homing.yy",},"order":6,},
     {"id":{"name":"s_pow_multiple","path":"sprites/s_pow_multiple/s_pow_multiple.yy",},"order":7,},
     {"id":{"name":"snd_boss_theme","path":"sounds/snd_boss_theme/snd_boss_theme.yy",},"order":4,},
