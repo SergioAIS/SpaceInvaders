@@ -1,5 +1,5 @@
 //Stats
-hpMax = 100
+hpMax = 1000
 
 hp = hpMax
 
