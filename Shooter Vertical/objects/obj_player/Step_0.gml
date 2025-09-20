@@ -94,7 +94,8 @@ if (alive)
     // ======================
     // Ataques
     // ======================
-
+if (room != r_end and room != r_credits)
+{
     if (keyboard_check(ord("Z")) and canShoot) 
     {
         switch(weapon)
@@ -121,4 +122,5 @@ if (alive)
 	{
 		c_weapon_secondary()
 	}
+}
 }

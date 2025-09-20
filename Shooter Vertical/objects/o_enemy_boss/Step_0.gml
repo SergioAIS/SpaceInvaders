@@ -6,6 +6,7 @@ if (hp <= hpMax * 0.7 && phase == 1) {
     phase = 2;
     reloadSpeed -= 5; // dispara más rápido
     hSpeed += 1;      // se mueve más rápido
+	obj_player.Score = obj_player.Score + 100
     audio_play_sound(snd_phase_change, 1, false); // sonido de transición
 }
 
@@ -13,6 +14,7 @@ if (hp <= hpMax * 0.4 && phase == 2) {
     phase = 3;
     reloadSpeed -= 5;
     hSpeed += 1;
+	obj_player.Score = obj_player.Score + 200
    audio_play_sound(snd_phase_change, 1, true); // música más intensa
    audio_stop_sound(snd_phase_change)
 }

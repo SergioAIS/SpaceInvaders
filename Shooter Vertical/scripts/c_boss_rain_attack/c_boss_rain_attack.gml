@@ -6,5 +6,8 @@ function c_boss_rain_attack(){
 	instance_create_layer(120, 0, "att", o_enemy_shot)
 	instance_create_layer(80, 0, "att", o_enemy_shot)
 	instance_create_layer(400, 0, "att", o_enemy_shot)
+	instance_create_layer(190, 0, "att", o_enemy_shot)
+	instance_create_layer(380, 0, "att", o_enemy_shot)
+	instance_create_layer(250, 0, "att", o_enemy_shot)
 	weapon = "mine"
 }

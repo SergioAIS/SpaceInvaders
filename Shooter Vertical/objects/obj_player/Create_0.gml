@@ -1,6 +1,7 @@
 //Stats
 hpMax = 50;
 hp = hpMax;
+Score = 0
 
 inviTime = room_speed/2;
 respawnTime = room_speed * 3;
