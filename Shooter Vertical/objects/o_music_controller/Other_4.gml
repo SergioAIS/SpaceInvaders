@@ -20,4 +20,8 @@ switch(room)
 		audio_stop_all()
 		audio_play_sound(snd_end, 1, false)
 	break;
+	
+	case r_final:
+		audio_stop_all()
+	break;
 }

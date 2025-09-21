@@ -19,6 +19,14 @@ powLevel = 1
 visible = 1
 //weapon = "standard"
 deaths = deaths + 1
+if (Score > 100)
+{
+	Score = Score - 100
+}
+else
+{
+	Score = 0
+}
 
 invi = 1
 alarm[1] = inviTime * 2
