@@ -67,9 +67,4 @@ switch (state)
     break;
 }
 
-if (hp <= 0)
-{
-	with (o_fade_out) {
-	    fading = true;
-	}
-}
+obj_player.level = "?"

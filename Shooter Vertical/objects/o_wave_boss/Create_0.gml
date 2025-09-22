@@ -9,3 +9,5 @@ c_spawn_height(240, y2, o_enemy_boss)
 
 spawn_interval = room_speed * 5; 
 alarm[0] = spawn_interval;
+
+obj_player.level = "Boss"

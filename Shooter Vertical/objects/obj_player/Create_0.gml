@@ -44,3 +44,5 @@ dash_cooldown = 0;
 is_dashing = false;
 dash_h = 0;
 dash_v = 0;
+
+level = 0

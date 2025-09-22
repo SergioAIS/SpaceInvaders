@@ -6,11 +6,16 @@ base_x_boss = 515
 base_y = 50;
 base_y_boss = 60
 
+draw_set_font(f_game)
+draw_set_color(c_yellow)
+draw_sprite(s_level, 0, -150, 26)
+draw_text(-100, 10, level)
 // Sprite opcional
 //draw_sprite(s_gui, -1, base_x - 20, base_y - 10);
 
 if (room = r_game)
 {
+	draw_set_font(f_game)
 	// Barra de vida
 	draw_set_color(make_color_rgb(255,64,64));
 	draw_text(base_x, base_y, "HP: ");
@@ -33,6 +38,7 @@ if (room = r_game)
 }
 else if (room = r_boss)
 {
+	draw_set_font(f_boss)
 	//BOSS
 
 	draw_set_color(make_color_rgb(255,64,64));
