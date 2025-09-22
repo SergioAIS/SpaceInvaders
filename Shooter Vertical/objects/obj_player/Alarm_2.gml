@@ -10,6 +10,11 @@ switch (room)
 		x = 352
 		y = 736
 	break;
+	
+	case r_final:
+		x = 360
+		y = 736
+	break;
 }
 
 

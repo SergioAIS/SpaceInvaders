@@ -14,5 +14,6 @@ function c_boss_fan_attack(){
 	    b.direction = angle;
 	    b.speed = 1.5;
 	}
+	audio_play_sound(snd_enemy_shot_1, 2, 0)
 	weapon = "rain"
 }

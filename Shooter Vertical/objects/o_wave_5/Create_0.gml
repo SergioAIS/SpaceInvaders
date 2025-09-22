@@ -1,7 +1,7 @@
 c_spawn_points();
 
 //Control
-nextWave = o_wave_boss
+nextWave = o_wave_6
 
 //Spawn actions
 

@@ -53,3 +53,5 @@ else
 	draw_text(420, 790, obj_player.Score)
 }
 
+
+

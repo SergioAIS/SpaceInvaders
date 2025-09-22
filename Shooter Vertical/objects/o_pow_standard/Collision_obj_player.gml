@@ -4,6 +4,18 @@ if (obj_player.weapon == "multiple")
 
 }
 
+if (obj_player.weapon == "homing")
+{
+	obj_player.weapon = "standard";
+
+}
+
+if (obj_player.weapon == "multiple-homing")
+{
+	obj_player.weapon = "standard";
+
+}
+
 instance_destroy();
 
 

@@ -1,0 +1,1 @@
+obj_player.Score = obj_player.Score + 1

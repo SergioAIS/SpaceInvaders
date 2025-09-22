@@ -9,6 +9,10 @@ if (hp <= hpMax * 0.5 && phase == 1) {
     audio_play_sound(snd_phase_change, 1, false);
 }
 
+
+	c_spawner_pow_bones()
+    
+	
 switch (state)
 {
     case "descend":
@@ -39,12 +43,11 @@ switch (state)
                 y = target_y;
                 pause_time = room_speed; // 1 segundo
                 target_x = irandom_range(32, room_width - 32);
-                target_y = irandom_range(64, room_height - 80);
+                target_y = irandom_range(64, room_height - 200);
             }
         }
 		
         if (canShoot) {
-            var atk;
             if (phase == 1) {
                 atk = choose("bone", "homing", "fan");
             } else {
@@ -62,4 +65,11 @@ switch (state)
             }
         }
     break;
+}
+
+if (hp <= 0)
+{
+	with (o_fade_out) {
+	    fading = true;
+	}
 }

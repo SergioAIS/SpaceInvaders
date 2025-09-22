@@ -15,5 +15,7 @@ function c_boss_homing(){
 		obj = instance_create_layer(x, y, "att", o_enemy_shot_hom)
 		obj.direction= shotDir - 15
 	
+		audio_play_sound(snd_enemy_shot_2, 2, 0)
+	
 		weapon = "multi"
 }

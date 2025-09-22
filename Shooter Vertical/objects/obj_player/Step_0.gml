@@ -88,8 +88,19 @@ if (alive)
 
     if (x > room_width - (sprite_width /2)) x = room_width - (sprite_width/2);
     if (x < sprite_width/2) x = sprite_width/2;
-    if (y > room_height-(sprite_height/2)) y = room_height-(sprite_height/2);
-    if (y < room_height/2) y = room_height/2;
+	if (room = r_game)
+	{
+		if (y > room_height - 50) y = room_height - 50
+	}else if (room = r_boss)
+	{
+		if (y > room_height - 65) y = room_height - 65
+	}else
+	{
+		if (y > room_height - 75) y = room_height - 75
+	}
+    //if (y > room_height-(sprite_height/2)) y = room_height-(sprite_height/2);
+	if (y < sprite_height/2) y = sprite_height/2
+    //if (y < room_height/2) y = room_height/2;
 
     // ======================
     // Ataques
