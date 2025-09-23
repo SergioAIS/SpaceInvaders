@@ -16,6 +16,8 @@ if (obj_player.weapon == "multiple-homing")
 
 }
 
+audio_play_sound(snd_power_up, 1, false);
+
 instance_destroy();
 
 

@@ -29,6 +29,7 @@ switch (state)
 	
 			obj = instance_create_layer(x, y, "att", o_enemy_shot_hom);
 			obj.direction = point_direction(x, y, obj_player.x, obj_player.y);
+			audio_play_sound(snd_enemy_shot_1, 1, false)
 		}
 	break;
 	

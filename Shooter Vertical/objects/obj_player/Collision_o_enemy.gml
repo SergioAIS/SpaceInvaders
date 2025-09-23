@@ -6,3 +6,4 @@ if (invi == 0)
 	audio_play_sound(snd_hurt, 1, false)
 }
 
+	

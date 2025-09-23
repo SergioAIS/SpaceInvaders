@@ -1,7 +1,7 @@
 c_spawn_points();
 
 //Control
-nextWave = noone
+nextWave = o_wave_bone_font
 
 //Spawn actions
 

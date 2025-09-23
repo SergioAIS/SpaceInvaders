@@ -45,4 +45,10 @@ is_dashing = false;
 dash_h = 0;
 dash_v = 0;
 
+//Cositas pal final
 level = 0
+cont_slow = 0
+cont_fast = 0
+cont_tank = 0
+cont_trg = 0
+cont_shield = 0

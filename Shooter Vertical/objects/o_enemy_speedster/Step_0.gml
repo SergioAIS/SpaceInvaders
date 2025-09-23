@@ -13,5 +13,6 @@ if (canShoot)
 	alarm[0] = reloadSpeed;
 	
 	instance_create_layer(x, y, "att", o_enemy_shot);
+	audio_play_sound(snd_enemy_shot_1, 1, false)
 }
 if (y > 780) instance_destroy()

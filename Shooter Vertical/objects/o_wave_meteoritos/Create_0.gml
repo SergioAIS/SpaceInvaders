@@ -6,7 +6,3 @@ nextWave = o_wave_5
 
 
 alarm[1] = room_speed * 1.5
-
-
-
-

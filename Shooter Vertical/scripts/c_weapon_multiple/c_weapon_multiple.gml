@@ -12,6 +12,8 @@ function c_weapon_multiple(argument0)
 			var b2 = instance_create_layer(x, y-8, "att", o_shot_multiple);
 			b2.direction = 100;
 			b2.speed = 12;
+			
+			audio_play_sound(snd_shot_1, 1, false)
 		break;
 		
 		case 2:
@@ -26,6 +28,8 @@ function c_weapon_multiple(argument0)
 			var c3 = instance_create_layer(x, y-8, "att", o_shot_multiple);
 			c3.direction = 110;
 			c3.speed = 12;
+			
+			audio_play_sound(snd_shot_1, 1, false)
 		break;
 		
 		case 3:
@@ -48,6 +52,8 @@ function c_weapon_multiple(argument0)
 			var d5 = instance_create_layer(x, y-8, "att", o_shot_multiple);
 			d5.direction = 0; 
 			d5.speed = 12;
+			
+			audio_play_sound(snd_shot_1, 1, false)
 		break;
 	}
 	

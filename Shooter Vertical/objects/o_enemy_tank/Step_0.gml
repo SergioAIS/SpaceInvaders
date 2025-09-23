@@ -35,6 +35,8 @@ switch (state)
 					obj = instance_create_layer(x, y, "att", o_enemy_shot_hom)
 					obj.direction= shotDir - 15
 					
+					audio_play_sound(snd_enemy_shot_1, 1, false)
+					
 					weapon = "multi"
 				break;
 				
@@ -47,6 +49,8 @@ switch (state)
 					instance_create_layer(x + 50, y, "att", o_enemy_shot);
 					
 					instance_create_layer(x - 50, y, "att", o_enemy_shot);
+					 
+					 audio_play_sound(snd_enemy_shot_2, 1, false)
 					 
 					 weapon = "homing"
 				break;

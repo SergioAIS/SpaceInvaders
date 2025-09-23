@@ -1,5 +1,5 @@
 //Stats
-hp = 30;
+hp = 40;
 dmg = 20;
 reloadSpeed = room_speed * 2;
 

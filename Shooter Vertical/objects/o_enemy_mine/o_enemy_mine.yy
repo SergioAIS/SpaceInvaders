@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_enemy_mine",
   "spriteId": {
-    "name": "s_spawner_path",
-    "path": "sprites/s_spawner_path/s_spawner_path.yy",
+    "name": "s_mine",
+    "path": "sprites/s_mine/s_mine.yy",
   },
   "solid": false,
   "visible": true,

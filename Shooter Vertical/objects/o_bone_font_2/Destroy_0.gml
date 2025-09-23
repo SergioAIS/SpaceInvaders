@@ -1,0 +1,1 @@
+obj_player.alarm[11] = room_speed * 3.5;

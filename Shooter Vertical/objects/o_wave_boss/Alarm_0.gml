@@ -1,10 +1,10 @@
 /// @description Minions
 // Solo spawneamos si el jefe sigue vivo
 if (instance_exists(o_enemy_boss)) {
-    var xx = irandom_range(25, room_width - 25);
-    var yy = irandom_range(-10, 0);
+    xx = irandom_range(25, room_width - 25);
+    yy = irandom_range(-10, 0);
     
-    var choice = irandom(2);
+    choice = irandom(2);
     switch (choice) {
         case 0: 
 			instance_create_layer(xx, yy, "obj", o_enemy_pow_shield); 
@@ -20,10 +20,6 @@ if (instance_exists(o_enemy_boss)) {
     }
     
     alarm[0] = spawn_interval;
-}
-else {
-    
-    instance_destroy();
 }
 
 

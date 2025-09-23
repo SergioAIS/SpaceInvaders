@@ -1,6 +1,6 @@
 c_spawn_points(); // Control de posiciones
 
-nextWave = o_wave_12 // cuál será la siguiente wave, tú lo defines después
+nextWave = o_wave_2
 
 // Spawns de esta wave
 c_spawn_height(x1, y4, o_enemy_slow);

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_enemy_tank",
   "spriteId": {
-    "name": "s_enemy_boss",
-    "path": "sprites/s_enemy_boss/s_enemy_boss.yy",
+    "name": "s_enemy_tank",
+    "path": "sprites/s_enemy_tank/s_enemy_tank.yy",
   },
   "solid": false,
   "visible": true,
