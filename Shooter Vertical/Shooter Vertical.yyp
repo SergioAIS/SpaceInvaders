@@ -54,6 +54,7 @@
     {"id":{"name":"o_wave_12","path":"objects/o_wave_12/o_wave_12.yy",},"order":22,},
     {"id":{"name":"s_shield_enemy","path":"sprites/s_shield_enemy/s_shield_enemy.yy",},"order":19,},
     {"id":{"name":"o_enemy_bomb","path":"objects/o_enemy_bomb/o_enemy_bomb.yy",},"order":22,},
+    {"id":{"name":"p_enemy_pow2","path":"paths/p_enemy_pow2/p_enemy_pow2.yy",},"order":9,},
     {"id":{"name":"o_enemy_boss","path":"objects/o_enemy_boss/o_enemy_boss.yy",},"order":11,},
     {"id":{"name":"snd_enemy_shot_1","path":"sounds/snd_enemy_shot_1/snd_enemy_shot_1.yy",},"order":7,},
     {"id":{"name":"r_end","path":"rooms/r_end/r_end.yy",},"order":4,},

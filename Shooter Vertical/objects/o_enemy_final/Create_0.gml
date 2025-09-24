@@ -1,6 +1,6 @@
 /// Boss Final - Create Event
 hp = 200;
-hpMax = 200;
+hpMax = 1500;
 
 vSpeed = 6;
 dmg = 20;
