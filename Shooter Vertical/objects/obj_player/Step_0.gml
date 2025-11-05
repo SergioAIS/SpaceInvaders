@@ -5,7 +5,7 @@ if (alive)
         alive = 0;
         visible = 0;
         instance_create_layer(x, y, "att", o_boom);
-        y += 500;
+        y += 5000;
         alarm[2] = respawnTime;
     }
 
